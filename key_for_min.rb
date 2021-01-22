@@ -4,9 +4,9 @@
 def key_for_min_value(name_hash)
   
 #filter out nil hashes
-#if name_hash == {}
-  #return nil
-#else
+if name_hash == {}
+  return nil
+else
   
 #first find average value
   sum = 0
@@ -30,4 +30,4 @@ min_key
 
 end
 
-#end
+end
